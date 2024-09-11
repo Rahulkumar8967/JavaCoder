@@ -13,7 +13,8 @@ public class Exp10 {
         if (balance < 0) {
             System.out.println("<------>");
         }
-        System.out.println(name + ":$" + balance);
+        System.out.println(name + ": $" + balance);
+
     }
 
     public static void main(String[] args) {
@@ -23,5 +24,4 @@ public class Exp10 {
         Exp10 b2 = new Exp10("Reena", 5000);
         b2.show();
     }
-    }
-
+}

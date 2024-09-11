@@ -12,6 +12,7 @@ public class Checkboxs extends Frame implements ItemListener {
         setLayout(new FlowLayout());
         setSize(300, 200);
         setVisible(true);
+        
         checkboxGroup1 = new CheckboxGroup();
         checkboxGroup2 = new CheckboxGroup();
         checkbox1 = new Checkbox("Option 1", checkboxGroup1, false);

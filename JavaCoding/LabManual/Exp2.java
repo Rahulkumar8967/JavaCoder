@@ -2,7 +2,7 @@ package LabManual;
 
 import java.util.Scanner;
 
-public class Exp2 {
+public class Exp29 {
     public static void main(String[] args) {
        
         try (Scanner sc = new Scanner(System.in)) {
@@ -10,7 +10,7 @@ public class Exp2 {
             System.out.println("Enter the size of Array:");
             int size = sc.nextInt();
 
-            // Create an array to store the elements
+            // Create an array to store the elemen-ts
             float[] numbers = new float[size];
 
             // Read the elements from the user

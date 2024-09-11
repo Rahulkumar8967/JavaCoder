@@ -8,7 +8,7 @@ public class RahulFrame extends Frame {
         setLayout(new FlowLayout());
         setBackground(Color.GRAY);
         setSize(300, 400);
-        setCursor(Cursor.HAND_CURSOR);
+      //  setCursor(Cursor.HAND_CURSOR);
         setVisible(true);
 
         Label label1 = new Label("Label 1");
